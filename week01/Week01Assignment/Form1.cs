@@ -11,6 +11,8 @@ namespace Week01Assignment
 {
     public partial class Form1 : Form
     {
+        private double epsilon = 1e-14;
+
         public Form1()
         {
             InitializeComponent();
@@ -30,30 +32,55 @@ namespace Week01Assignment
 
         private void btnSumm_Click(object sender, EventArgs e)
         {
-            double num1 = Double.Parse(txtFirst.Text);
-            double num2 = Double.Parse(txtSecond.Text);
-            txtResult.Text = buildResultString("sum", num1, num2, num1 + num2);
+            Double? num1 = parseInputToDouble(txtFirst.Text);
+            Double? num2 = parseInputToDouble(txtSecond.Text);
+            if (num1 == null || num2 == null)
+                return;
+            txtResult.Text = buildResultString("sum", num1.Value, num2.Value, num1.Value + num2.Value);
         }
 
         private void btnDiff_Click(object sender, EventArgs e)
         {
-            double num1 = Double.Parse(txtFirst.Text);
-            double num2 = Double.Parse(txtSecond.Text);
-            txtResult.Text = buildResultString("difference", num1, num2, num1 - num2);
+            Double? num1 = parseInputToDouble(txtFirst.Text);
+            Double? num2 = parseInputToDouble(txtSecond.Text);
+            if (num1 == null || num2 == null)
+                return;
+            txtResult.Text = buildResultString("difference", num1.Value, num2.Value, num1.Value - num2.Value);
         }
 
         private void btnMult_Click(object sender, EventArgs e)
         {
-            double num1 = Double.Parse(txtFirst.Text);
-            double num2 = Double.Parse(txtSecond.Text);
-            txtResult.Text = buildResultString("product", num1, num2, num1 * num2);
+            Double? num1 = parseInputToDouble(txtFirst.Text);
+            Double? num2 = parseInputToDouble(txtSecond.Text);
+            if (num1 == null || num2 == null)
+                return;
+            txtResult.Text = buildResultString("product", num1.Value, num2.Value, num1.Value * num2.Value);
         }
 
         private void btnQuot_Click(object sender, EventArgs e)
         {
-            double num1 = Double.Parse(txtFirst.Text);
-            double num2 = Double.Parse(txtSecond.Text);
-            txtResult.Text = buildResultString("quotient", num1, num2, num1 / num2);
+            Double? num1 = parseInputToDouble(txtFirst.Text);
+            Double? num2 = parseInputToDouble(txtSecond.Text);
+            if (num1 == null || num2 == null)
+                return;
+            if (Math.Abs(num2.Value) < epsilon)
+            {
+                MessageBox.Show("Division by zero is undefined; please enter a different number");
+                return;
+            }
+            txtResult.Text = buildResultString("quotient", num1.Value, num2.Value, num1.Value / num2.Value);
+        }
+
+        private Double? parseInputToDouble(String value)
+        {
+            try
+            {
+                return Double.Parse(value);
+            } catch (FormatException e)
+            {
+                MessageBox.Show("'" + value + "' is not a legitimate number; please enter a numeric value");
+                return null;
+            }
         }
 
         private String buildResultString(String op, double lhs, double rhs, double result)
