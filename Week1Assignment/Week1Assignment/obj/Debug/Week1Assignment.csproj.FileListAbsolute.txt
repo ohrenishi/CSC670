@@ -1,0 +1,6 @@
+C:\Users\Arocard\Desktop\College\National University\CSC 670\C Projects\Week1Assignment\Week1Assignment\bin\Debug\Week1Assignment.exe.config
+C:\Users\Arocard\Desktop\College\National University\CSC 670\C Projects\Week1Assignment\Week1Assignment\bin\Debug\Week1Assignment.exe
+C:\Users\Arocard\Desktop\College\National University\CSC 670\C Projects\Week1Assignment\Week1Assignment\bin\Debug\Week1Assignment.pdb
+C:\Users\Arocard\Desktop\College\National University\CSC 670\C Projects\Week1Assignment\Week1Assignment\obj\Debug\Week1Assignment.csprojResolveAssemblyReference.cache
+C:\Users\Arocard\Desktop\College\National University\CSC 670\C Projects\Week1Assignment\Week1Assignment\obj\Debug\Week1Assignment.exe
+C:\Users\Arocard\Desktop\College\National University\CSC 670\C Projects\Week1Assignment\Week1Assignment\obj\Debug\Week1Assignment.pdb
