@@ -1,0 +1,17 @@
+c:\users\ryonts\documents\visual studio 2010\Projects\Week01Assignment\Week01Assignment\bin\Debug\Week01Assignment.exe
+c:\users\ryonts\documents\visual studio 2010\Projects\Week01Assignment\Week01Assignment\bin\Debug\Week01Assignment.pdb
+c:\users\ryonts\documents\visual studio 2010\Projects\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.Form1.resources
+c:\users\ryonts\documents\visual studio 2010\Projects\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.Properties.Resources.resources
+c:\users\ryonts\documents\visual studio 2010\Projects\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.csproj.GenerateResource.Cache
+c:\users\ryonts\documents\visual studio 2010\Projects\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.exe
+c:\users\ryonts\documents\visual studio 2010\Projects\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.pdb
+D:\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.exe
+D:\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.pdb
+C:\Users\richy\Projects\Week01Assignment\Week01Assignment\bin\Debug\Week01Assignment.exe
+C:\Users\richy\Projects\Week01Assignment\Week01Assignment\bin\Debug\Week01Assignment.pdb
+C:\Users\richy\Projects\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.csprojResolveAssemblyReference.cache
+C:\Users\richy\Projects\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.Form1.resources
+C:\Users\richy\Projects\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.Properties.Resources.resources
+C:\Users\richy\Projects\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.csproj.GenerateResource.Cache
+C:\Users\richy\Projects\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.exe
+C:\Users\richy\Projects\Week01Assignment\Week01Assignment\obj\x86\Debug\Week01Assignment.pdb
